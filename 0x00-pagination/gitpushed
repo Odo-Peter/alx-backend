@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m "Pagination - $1 $2"
+git push
