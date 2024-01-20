@@ -25,6 +25,7 @@ def get_locale():
     """
     return request.accept_languages.best_match(app.config['LANGUAGES'])
 
+
 @app.route('/')
 def say_hello():
     """Route handler for 3-index.html
